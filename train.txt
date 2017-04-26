@@ -1,0 +1,22 @@
+{
+    "error": "false",
+    "errorMsg": "Error message",
+    "errorField": "",
+    "time": "08:22",
+    "trains": [
+        ["", "08:19", "a", "On time", "111", "/service/ldbdetails/ZFCzzAApFnD%2BP%23VwROXuuA%3D%3D"],
+        ["", "08:21", "b", "On time", "222", "/service/ldbdetails/bGcAFdxFMXOm5Eiy3vv2Ng%3D%3D"],
+        ["", "08:38", "c", "On time", "1", "/service/ldbdetails/9PafjvVZdr3QfxMpfX2r7A%3D%3D"],
+        ["", "08:42", "d", "On time", "2", "/service/ldbdetails/kYfsKISqbgwA9D2Ivk%23qZQ%3D%3D"],
+        ["", "08:50", "e", "On time", "1", "/service/ldbdetails/rlhBh7T%2BRBS1VGxdoswd5g%3D%3D"],
+        ["", "08:51", "f", "On time", "2", "/service/ldbdetails/AsOleEq1obz0MXmfbDFZZw%3D%3D"],
+        ["", "08:51", "g", "On time", "2", "/service/ldbdetails/AsOleEq1obz0MXmfbDFZZw%3D%3D"],
+        ["", "08:51", "h", "On time", "2", "/service/ldbdetails/AsOleEq1obz0MXmfbDFZZw%3D%3D"]
+
+        
+
+    ],
+    "buses": [],
+    "ferries": [],
+    "updates": []
+}

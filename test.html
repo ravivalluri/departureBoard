@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.extend demo</title>
+</head>
+<body>
+ 
+<div id="log"></div>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+
+var busUrl = "bus_url.php";
+var busUrl2 = "bus_url2.php";
+
+var arrDestination51599 = new Array();
+var arrDestination48710 = new Array(); 
+var arrDestinationCombined = new Array();
+
+
+init();
+var referesh  = setInterval(function() {
+	init();
+}, 5000);
+
+
+function init(){
+	// clear data
+	arrDestination51599 = new Array();
+	arrDestination48710 = new Array(); 
+	arrDestinationCombined = new Array();
+
+	loadFirstData();
+}
+
+
+function loadFirstData(){
+	$.ajax({
+		type: 'GET',
+		dataType: 'json',
+		async: true,
+		url: busUrl,
+		success: function(data){
+			$.each(data, function(key, value) {
+				$.each(this, function(key, value) {
+					if (value["scheduledTime"]){
+				   		// console.log(value.destination);
+				   		arrDestination51599.push(value.destination);
+					}
+				});
+			});
+			loadSecondData();
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+		  console.log('error');
+		}
+	});
+
+}
+
+function loadSecondData(){
+		$.ajax({
+			type: 'GET',
+			dataType: 'json',
+			async: true,
+			url: busUrl2,
+			success: function(arg) {
+				$.each(arg, function(key, value) {
+					if (key == "arrivals") {
+						$.each(this, function(key, value) {
+						   	// console.log(value.destination);
+				   			arrDestination48710.push(value.destination);
+						});
+					}
+				});
+
+				combineBothData();
+			},
+			error: function (XMLHttpRequest, textStatus, errorThrown) {
+			  console.log('error');
+			}
+		});
+}
+
+
+function combineBothData(){
+	//arrDestination51599 loop
+	for(i=0; i<arrDestination51599.length; i++){
+		arrDestinationCombined.push(arrDestination51599[i]);
+	}
+
+	//arrDestination48710 loop
+	for(i=0; i<arrDestination48710.length; i++){
+		arrDestinationCombined.push(arrDestination48710[i]);
+	}
+
+	console.log(arrDestinationCombined);
+}
+
+
+</script>
+ 
+</body>
+</html>

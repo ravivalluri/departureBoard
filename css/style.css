@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Frutiger;
+    src: url(../font/FrutigerCE45Light.ttf) format('truetype');
+}
+
+
+.wrapper {
+	font-family: Frutiger, arial, san-serif;
+	width: 1080px;
+	/*height: 623px;*/
+	height: 1245px;
+	text-transform: uppercase;
+}
+
+header, .header{
+	padding: 18px;
+	box-sizing: border-box;
+	height: 120px;
+	background: #ffffff;
+}
+
+.title {
+	font-family: Frutiger;
+	font-weight: bold;
+	position: relative;
+	margin-left: 20px;
+	font-size: 48px;
+	top: 12px;
+}
+
+table {
+    width:100%;
+}
+th {
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+th {
+	background-color: #0075bf;
+	height: 72px;
+}
+
+td {
+	height: 72px;
+}
+
+td {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+
+.bus_table th:first-child, 
+.train_table th:first-child, 
+.tram_table th:first-child, 
+.destination {
+	text-align: left;
+	padding-left: 20px;
+}
+table, th, td {
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+table tr:nth-child(odd) {
+   background-color:#d7d7d7;
+}

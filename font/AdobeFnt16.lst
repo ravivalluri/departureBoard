@@ -1,0 +1,46 @@
+%!Adobe-FontList 1.16
+%Locale:0x4409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FrutigerLT-Roman
+FamilyName:Frutiger LT 55 Roman
+StyleName:Regular
+FullName:Frutiger LT 55 Roman
+MenuName:Frutiger LT 55 Roman
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\swl\Font\Frutiger LT 55 Roman.ttf
+DataFormat:sfntData
+FileLength:77824
+FileModTime:1031208900
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Frutiger LT 55 Roman
+NameArray:0,Win,1,Frutiger LT 55 Roman
+NameArray:0,Win,16,Frutiger LT 55 Roman
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FrutigerCE-Light
+FamilyName:Frutiger CE 45 Light
+StyleName:Regular
+FullName:Frutiger CE 45 Light
+MenuName:Frutiger CE 45 Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\swl\Font\FrutigerCE45Light.ttf
+DataFormat:sfntData
+FileLength:57572
+FileModTime:987649478
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Frutiger CE 45 Light
+NameArray:0,Win,1,Frutiger CE 45 Light
+%EndFont
+

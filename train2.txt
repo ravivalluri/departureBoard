@@ -1,0 +1,321 @@
+{
+  "trainServices": [
+    {
+      "origin": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "10:20",
+      "etd": "10:23",
+      "platform": "2",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "quN1gPrLaQwX/6wkQfKs5g==",
+      "adhocAlerts": null
+    },
+    {
+      "origin": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "10:50",
+      "etd": "On time",
+      "platform": "2",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "vleT/wn6fi9B9jAV3+V6JA==",
+      "adhocAlerts": null
+    },
+    {
+      "origin": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": "via Wimbledon",
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "10:51",
+      "etd": "On time",
+      "platform": "1",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "nVX9PJdXRPOzhpazFvzrdQ==",
+      "adhocAlerts": null
+    },
+    {
+      "origin": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "11:20",
+      "etd": "On time",
+      "platform": "2",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "UaWFf4RDw6CbavnLhGu9LA==",
+      "adhocAlerts": null
+    },
+    {
+      "origin": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": "via Wimbledon",
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "11:21",
+      "etd": "On time",
+      "platform": "1",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "RnwUqEcu5zM7s8B+WBnPvA==",
+      "adhocAlerts": null
+    },
+    {
+      "origin": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "11:50",
+      "etd": "On time",
+      "platform": "2",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "ACGBVEjLV3BcdB6L8CaNqA==",
+      "adhocAlerts": null
+    },
+    {
+      "origin": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": "via Wimbledon",
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "11:51",
+      "etd": "On time",
+      "platform": "1",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "s26mMK5acbJf4qMkN2pA8A==",
+      "adhocAlerts": null
+    },
+    {
+      "origin": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "12:20",
+      "etd": "On time",
+      "platform": "2",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "OI5TJ5rFbOsX3NegU8sNAA==",
+      "adhocAlerts": null
+    },
+    {
+      "origin": [
+        {
+          "locationName": "Sutton (Surrey)",
+          "crs": "SUO",
+          "via": null,
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "destination": [
+        {
+          "locationName": "Luton",
+          "crs": "LUT",
+          "via": "via Wimbledon",
+          "futureChangeTo": null,
+          "assocIsCancelled": false
+        }
+      ],
+      "currentOrigins": null,
+      "currentDestinations": null,
+      "sta": null,
+      "eta": null,
+      "std": "12:21",
+      "etd": "On time",
+      "platform": "1",
+      "operator": "Thameslink",
+      "operatorCode": "TL",
+      "isCircularRoute": false,
+      "filterLocationCancelled": false,
+      "serviceType": 0,
+      "serviceID": "eaJRrmRbhT3fULPMCM/2kw==",
+      "adhocAlerts": null
+    }
+  ],
+  "busServices": null,
+  "ferryServices": null,
+  "generatedAt": "2015-09-04T09:24:56.8520106+00:00",
+  "locationName": "Wimbledon Chase",
+  "crs": "WBO",
+  "filterLocationName": null,
+  "filtercrs": null,
+  "filterType": 0,
+  "nrccMessages": null,
+  "platformAvailable": true,
+  "areServicesAvailable": true
+}
